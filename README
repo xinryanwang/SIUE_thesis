@@ -1,0 +1,37 @@
+ siuethesis is a LaTeX documentclass based on the wonderful iuthesis class by Norman Danner (permission obtained). 
+
+iuthesis is Copyright Norman Danner, 1999.
+The license status of siuethesis is unknown at this time.
+
+siuethesis is created by Adam G. Weyhaupt (aweyhau@siue.edu) and is intended to provide output acceptable to the Graduate School at Southern Illinois University Edwardsville.
+
+**********************************************************************
+
+The file siuethesis.cls is all that is needed to type your thesis; to get started quickly you can just copy these to the same directory as your thesis.
+
+To do a normal installation of the siuethesis document class:
+
+0) ensure that you have downloaded siuethesis.dtx and siuethesis.ins.
+
+1) run latex (or tex) on siuethesis.ins
+   result: The file siuethesis.cls has been created.
+   
+2) run pdflatex (or latex) on siuethesis.dtx (twice)
+   result: The file siuethesis.pdf (or siuethesis.dvi) has been created.
+   
+3a - preferred) Move siuethesis.cls to your local texmf tree (how to do this depends on your platform, but see either the documentation for your LaTeX distribution or see http://en.wikibooks.org/wiki/LaTeX/Packages/Installing_Extra_Packages)
+
+3b - alternative) Move siuethesis.cls to the directory in which you will write your thesis.
+
+4) Read the documentation in siuthesis.pdf (or siuethesis.dvi) which explains how to use the documentclass.
+
+5) Typeset thesis_sample.tex to test your setup.
+
+***********************************************************************
+
+This class will not work out of the box on Scientific Workplace or LyX; if you are using one of these and want to help me modify the class to work with those let me know.
+
+Adam Weyhaupt
+aweyhau@siue.edu
+June 9, 2015
+This document refers to siuethesis.cls version 0.2.5.
